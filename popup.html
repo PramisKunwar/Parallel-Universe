@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="popup-container">
+        <div class="popup-header">
+            <div class="header-line"></div>
+            <h1>SURVELLANCE <br> SYSTEM</h1>
+            <div class="header-line"></div>
+        </div>
+
+        <div class="status-row">
+            <span class="status-dot" id="statusDot"></span>
+            <span id="statusText">SYSTEM ONLINE</span>
+        </div>
+
+        <div class="control-group">
+            <label class="toggle-label">
+                <span>SYSTEM POWER</span>
+                <input type="checkbox" id="enableToggle" checked>
+                <span class="toggle-slider"></span>
+            </label>
+        </div>
+
+        <div class="control-group">
+            <div class="mode-label">OPERATION MODE</div>
+            <div class="mode-buttons">
+                <button class="mode-btn" id="passiveBtn" data-mode="passive">PASSIVE</button>
+                <button class="mode-btn active" id="activeBtn" data-mode="active">ACTIVE</button>
+            </div>
+        </div>
+
+            <div class="metrics">
+      <div class="metric"><span class="metric-label">TARGETS</span><span class="metric-value" id="metricTargets">--</span></div>
+      <div class="metric"><span class="metric-label">SIGNAL</span><span class="metric-value" id="metricSignal">--%</span></div>
+      <div class="metric"><span class="metric-label">DATA RATE</span><span class="metric-value" id="metricData">-- KB/s</span></div>
+    </div>
+
+    <div class="popup-footer">v1.0.0</div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
