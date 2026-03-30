@@ -284,14 +284,6 @@
     }, 2500);
   }
 
-  function startGlitch() {
-    setInterval(() => {
-      if (!enabled || mode === 'passive') return;
-      if (Math.random() > 0.7) {
-        document.body.classList.add('surv-glitch-flash');
-        setTimeout(() => document.body.classList.remove('surv-glitch-flash'), 150);
-      }
-    }, 12000);
-  }
+  
 
 })();
