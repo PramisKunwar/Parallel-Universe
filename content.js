@@ -37,12 +37,14 @@
   }
   const TEXT_MAP = [
     [/\bSubscribe\b/gi, 'Join the cult'],
+    [/\bSubscriptions\b/gi, 'Following'],
     [/\bSubscribed\b/gi, 'Locked In'],
     [/\bUnsubscribe\b/gi, 'Dip Out'],
     [/\bLike\b/gi, 'Approved'],
     [/\bDislike\b/gi, 'Weak'],
     [/\bShare\b/gi, 'Send it'],
     [/\bComment\b/gi, 'Talk'],
+    [/\bDownloads\b/gi, 'Offline videos'],
     [/\bComments\b/gi, 'Talk Zone'],
     [/\bRecommended\b/gi, 'Your Vibe'],
     [/\bTrending\b/gi, 'Viral Now'],
@@ -67,6 +69,7 @@
     [/\bView\b/gi, 'Hit'],
     [/\bago\b/gi, 'Back'],
     [/\bsubscribers?\b/gi, 'Crew'],
+    [/\bRemove ads?\b/gi, 'Pay to be Free'],
     [/\bvideos?\b/gi, 'FEEDS'],
   ];
 
