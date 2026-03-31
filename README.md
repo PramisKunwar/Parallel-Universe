@@ -3,8 +3,6 @@ A Chrome Extension that transforms YouTube into a classified real-time intellige
 
 ---
 
-| Screenshot-1 | Screenshot-2 |
-|--------------|--------------|
 | ![Screenshot-1](/Parallel-Universe.png) | ![Screenshot-2](/Parallel-Universe1.png) |
 | ![Screenshot-3](/Parallel-Universe2.png) | ![Screenshot-4](/Parallel-Universe3.png) |
 | ![Screenshot-5](/Parallel-Universe4.png) | ![Screenshot-6](/Parallel-Universe7.png) |
