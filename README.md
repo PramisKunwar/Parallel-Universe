@@ -23,6 +23,12 @@ A Chrome Extension that transforms YouTube into a classified real-time intellige
 - CRT Scanline + Glitch FX
 
 ---
+## Tech stack:
+- JavaScript: Main logic for DOM manipulation, HUD overlays, text transformations and dynamic metrics.
+- HTML: Popup interface
+- CSS: Styling for HUD, radar, reticle, glitch effects, scanlines and animations
+- Manifest Version: V3
+- APIs Used: chrome.storage, chrome.tabs, chrome.runtime
 
 ## License 
 Made for hack club. 
