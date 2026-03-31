@@ -1,7 +1,7 @@
 const $ = (sel) => document.querySelector(sel);
 
 chrome.storage.local.get(['survEnabled', 'survMode'], (data) => {
-  const enabled = data.survEnabled !== false; // default true
+  const enabled = data.survEnabled !== false; 
   const mode = data.survMode || 'active';
 
   $('#enableToggle').checked = enabled;

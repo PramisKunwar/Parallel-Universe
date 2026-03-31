@@ -75,8 +75,6 @@ body {
     text-transform: uppercase;
     padding: 8px 10px;
     border: 1px solid rgba(0, 255, 102, 0.15);
-    /* box-shadow: 0 0 8px #056deb;
-    animation: pulse 2s infinite; */
 }
 
 .toggle-label input { display: none;}
