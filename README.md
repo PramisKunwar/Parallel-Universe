@@ -1,5 +1,5 @@
-# YouTube Surveillance System
-A Chrome Extension that transforms YouTube into a classified real-time intelligence monitoring interface. This extension reimagines YouTube as a covert intelligence platform. Videos become surveillance feeds, channels become subject profiles and subscribers become operatives. The extension layers a fully interactive HUD on top of YouTube without breaking any existing functionality.
+# Parallel Universe
+A chrome extension that reimagines YouTube as a covert intelligence platform. It overlays a futuristic HUD, replaces UI text with cool terminology and adds effects like radar sweeps, targeting reticles and glitch visuals, all while keeping YouTube fully functional.
 
 ---
 
